@@ -4,6 +4,7 @@ import Navbar from "../../components/navbar/Navbar"
 import Header from "../../components/header/Header"
 import Featured from "../../components/featured/Featured"
 import Property from "../../components/propertyList/Property"
+import FeaturedProp from "../../components/featuredProperties/FeaturedProp"
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
         <h1 className="homeTitle">Browes by property type</h1>
         <Property />
         <h1>Homes guests love</h1>
-        
+        <FeaturedProp />
       </div>
     </div>
   )

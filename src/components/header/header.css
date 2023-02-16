@@ -81,9 +81,11 @@
 .date {
   position: absolute;
   top: 45px;
+  z-index: 2;
 }
 
 .options {
+  z-index: 2;
   position: absolute;
   top: 45px;
   background-color: white;
@@ -119,4 +121,8 @@
 
 .optionCounterBtn:disabled {
   cursor: not-allowed;
+}
+
+.headerContainer.listMode {
+  margin: 20px 0px 0px 0px;
 }
